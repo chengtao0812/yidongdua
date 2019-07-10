@@ -1,5 +1,4 @@
 import Vue from 'vue'
-<<<<<<< HEAD
 import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
@@ -27,7 +26,6 @@ Vue.use(VueRouter)
 //   console.log('所有失败响应 先走拦截器里--2：', error)
 //   return Promise.reject(error);
 // });
-=======
 // 1.1 路由的包
 import VueRouter from 'vue-router'
 Vue.use(VueRouter)
@@ -56,7 +54,6 @@ axios.interceptors.response.use(function (response) {
   console.log('所有失败响应 先走拦截器里--2：', error)
   return Promise.reject(error);
 });
->>>>>>> 2dcd99ac54e19cd487536dd7eef3694f132923ba
 
 // 导入 MUI 的样式
 import './lib/mui/css/mui.min.css'
@@ -74,18 +71,15 @@ Vue.use(Lazyload); */
 import MintUI from 'mint-ui'
 Vue.use(MintUI)
 import 'mint-ui/lib/style.css'
-<<<<<<< HEAD
 import './scss/app.scss'
 
 import router from './router.js'
 
-=======
 
 // 1.3 导入自己的 router.js 路由模块
 import router from './router.js'
 
 // 导入 App 根组件
->>>>>>> 2dcd99ac54e19cd487536dd7eef3694f132923ba
 import app from './App.vue'
 var vm = new Vue({
   el: '#app',
